@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo", "Apollo.csproj", "{19686E7D-53FB-4455-B319-128E857DBA6D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1EFB552F-A9D8-43D9-88EB-15213A011DC2} = {1EFB552F-A9D8-43D9-88EB-15213A011DC2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.Routing", "..\Apollo.Routing\Apollo.Routing.csproj", "{1EFB552F-A9D8-43D9-88EB-15213A011DC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19686E7D-53FB-4455-B319-128E857DBA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19686E7D-53FB-4455-B319-128E857DBA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19686E7D-53FB-4455-B319-128E857DBA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19686E7D-53FB-4455-B319-128E857DBA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFB552F-A9D8-43D9-88EB-15213A011DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFB552F-A9D8-43D9-88EB-15213A011DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFB552F-A9D8-43D9-88EB-15213A011DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFB552F-A9D8-43D9-88EB-15213A011DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66FCBE52-0C59-41B4-8FF9-A52526AC7844}
+	EndGlobalSection
+EndGlobal
