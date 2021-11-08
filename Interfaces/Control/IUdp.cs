@@ -1,0 +1,7 @@
+﻿namespace DeviceInterfaces
+{
+    interface IUdp
+    {
+
+    }
+}
